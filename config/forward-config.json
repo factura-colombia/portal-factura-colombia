@@ -1,0 +1,8 @@
+{
+    "nombre": "Forward",
+    "logoUrl": "./imagenes/Logo_Forward.png",
+    "adminUrl": "https://forward.innapsis.com.co",
+    "clientesUrl": "https://forward-clientes.innapsis.com.co",
+    "proveedoresUrl": "https://forward-proveedores.innapsis.com.co",
+    "backgroundClass": "forward"    
+}

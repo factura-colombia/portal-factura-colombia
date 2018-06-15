@@ -1,0 +1,8 @@
+{
+    "nombre": "Havas Digital",
+    "logoUrl": "./imagenes/Logo_HavasDigital.png",
+    "adminUrl": "https://havas.innapsis.com.co",
+    "clientesUrl": "https://havas-clientes.innapsis.com.co",
+    "proveedoresUrl": "https://havas-proveedores.innapsis.com.co",
+    "backgroundClass": "havas-digital"    
+}

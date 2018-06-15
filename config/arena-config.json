@@ -1,0 +1,8 @@
+{
+    "nombre": "Arena",
+    "logoUrl": "./imagenes/Logo_arena280x60.png",
+    "adminUrl": "https://arena.innapsis.com.co",
+    "clientesUrl": "https://arena-clientes.innapsis.com.co",
+    "proveedoresUrl": "https://arena-proveedores.innapsis.com.co",
+    "backgroundClass": "arena"    
+}

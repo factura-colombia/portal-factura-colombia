@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Factura Electrónica Havas Digital</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="css/font-awesome.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/xs.css" media="(max-width: 768px)" type="text/css">
+</head>
+
+<body ng-controller="mainController">
+
+  <div id="ejecuta-menu">
+    <i id="abre-menu" class="fa fa-bars fa-3x pull-right" aria-hidden="true"></i>
+    <i id="cierra-menu" class="fa fa-times fa-3x pull-right" aria-hidden="true"></i>
+  </div>
+
+  <div id="menu-smart">
+    <ul>
+      <li class="item-menu-smart">
+        <a class="scroll" href="#inicio">Inicio</a>
+      </li>
+      <li class="item-menu-smart">
+        <a class="scroll" href="#videos">Videos</a>
+      </li>
+      <li class="item-menu-smart">
+        <a class="scroll" href="#descargas">Descargas</a>
+      </li>
+      <li class="item-menu-smart">
+        <a class="scroll" href="#noticias">Noticias</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="franja">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-xs-10">
+          <div class="titulo">Portal Factura Electrónica Innapsis-Appflow</div>
+        </div>
+        <div class="col-sm-5 col-xs-2">
+          <div class="dropdown visible-xs">
+            <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li>
+                <a href="#">Acerca Portal</a>
+              </li>
+              <li>
+                <a href="#">Ayuda</a>
+              </li>
+              <li>
+                <a href="#">Contacto</a>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li>
+                <a ng-href="{{config.adminUrl}}">admin
+                  <i class="fa fa-user fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="hidden-xs">
+            <ul>
+              <li>
+                <a href="#">Acerca Portal</a>
+              </li>
+              <li>
+                <a href="#">Ayuda</a>
+              </li>
+              <li>
+                <a href="#">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-3 hidden-xs">
+          <a ng-href="{{config.adminUrl}}" class="btn btn-sm pull-right admin">Admin
+            <i class="fa fa-user fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-xs-8">
+          <img class="logo" ng-src="{{config.logoUrl}}" alt="">
+        </div>
+        <div class="col-sm-7 col-xs-4">
+          <nav class="hidden-xs">
+            <ul>
+              <li>
+                <a class="scroll" href="#inicio">Inicio</a>
+              </li>
+              <li>
+                <a class="scroll" href="#videos">Videos</a>
+              </li>
+              <li>
+                <a class="scroll" href="#descargas">Descargas</a>
+              </li>
+              <li>
+                <a class="scroll" href="#noticias">Noticias</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-2 hidden-xs">
+          <div class="pull-right box-bienvenida">
+            <p>{{config.nombre}}</p>
+            <big>Bienvenido</big>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="inicio">
+    <div class="banner">
+      <div class="filtro">
+        <h1>Portal Factura Electrónica
+          <br>Havas Digital</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet amet
+          dolore magna sed.</p>
+        <a ng-href="{{config.clientesUrl}}">Portal Clientes</a>
+        <br class="visible-xs">
+        <a ng-href="{{config.proveedoresUrl}}">Portal Proveedores</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos" class="videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>Videos</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="#">
+            <img src="./imagenes/video.png" alt="">
+          </a>
+          <h4>Título video</h4>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
+            <img src="./imagenes/video.png" alt="">
+          </a>
+          <h4>Título video</h4>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
+            <img src="./imagenes/video.png" alt="">
+          </a>
+          <h4>Título video</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="#">
+            <img src="./imagenes/video.png" alt="">
+          </a>
+          <h4>Título video</h4>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
+            <img src="./imagenes/video.png" alt="">
+          </a>
+          <h4>Título video</h4>
+        </div>
+        <div class="col-sm-4">
+          <a href="#">
+            <img src="./imagenes/video.png" alt="">
+          </a>
+          <h4>Título video</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="descargas" id="descargas">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>Descargas</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <table class="table table-hover table-condensed">
+            <tbody>
+              <tr>
+                <td>05 / Marzo / 2018</td>
+                <td>
+                  <i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i> Nueva regulación impuestos mensuales</td>
+                <td>
+                  <a href="#">Descargar
+                    <i class="fa fa-arrow-circle-down fa-lg" aria-hidden="true"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>05 / Marzo / 2018</td>
+                <td>
+                  <i class="fa fa-file-excel-o fa-lg" aria-hidden="true"></i> Excel actualiza productos</td>
+                <td>
+                  <a href="#">Descargar
+                    <i class="fa fa-arrow-circle-down fa-lg" aria-hidden="true"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>05 / Marzo / 2018</td>
+                <td>
+                  <i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i> Ejemplo documento</td>
+                <td>
+                  <a href="#">Descargar
+                    <i class="fa fa-arrow-circle-down fa-lg" aria-hidden="true"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>05 / Marzo / 2018</td>
+                <td>
+                  <i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i> Nueva regulación impuestos mensuales</td>
+                <td>
+                  <a href="#">Descargar
+                    <i class="fa fa-arrow-circle-down fa-lg" aria-hidden="true"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>05 / Marzo / 2018</td>
+                <td>
+                  <i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i> Nueva regulación impuestos mensuales</td>
+                <td>
+                  <a href="#">Descargar
+                    <i class="fa fa-arrow-circle-down fa-lg" aria-hidden="true"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="noticias" id="noticias">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>Noticias</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="item">
+            <img src="./imagenes/noticia-1.png" alt="">
+            <div class="detalle">
+              <h4>Título noticia destacada</h4>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,</p>
+              <p>Quis nostrud exerci tation ullamcorper suscipit lob.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="item dos">
+              <div class="col-sm-4 col-xs-4">
+                <div class="row">
+                  <img src="./imagenes/noticia-2.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm-8 col-xs-8">
+                <div class="detalle">
+                  <h4>Título noticia</h4>
+                  <p>Lorem ipsum dolor sit amet, consec- tetuer adipiscing elit, sed diam nonum- my nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item dos fin">
+              <div class="col-sm-4 col-xs-4">
+                <div class="row">
+                  <img src="./imagenes/noticia-2.png" alt="">
+                </div>
+              </div>
+              <div class="col-sm-8 col-xs-8">
+                <div class="detalle">
+                  <h4>Título noticia</h4>
+                  <p>Lorem ipsum dolor sit amet, consec- tetuer adipiscing elit, sed diam nonum- my nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="#" class="pull-right mas-noticias">
+            <big>Ver más noticias
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </big>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-11 col-sm-offset-1">
+          Innapsis-Appflow S.A.S
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/move-top.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 40) {
+          $("header").addClass("scroll");
+          $("#ejecuta-menu").addClass("fixed");
+        }
+      });
+
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll < 40) {
+          $("header").removeClass("scroll");
+          $("#ejecuta-menu").removeClass("fixed");
+        }
+      });
+
+    });
+  </script>
+  <script type="text/javascript">
+    $('#abre-menu').click(
+      function () {
+        $(this).hide();
+        $('#menu-smart').fadeIn();
+        $('#cierra-menu').show();
+      });
+
+    $('#cierra-menu').click(
+      function () {
+        $(this).hide();
+        $('#abre-menu').show();
+        $('#menu-smart').fadeOut();
+      });
+
+    $('.item-menu-smart').click(
+      function () {
+        $('#cierra-menu').hide();
+        $('#abre-menu').show();
+        $('#menu-smart').fadeOut();
+
+      });
+  </script>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 1200);
+      });
+    });
+  </script>
+  <script src="js/angular/angular.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
