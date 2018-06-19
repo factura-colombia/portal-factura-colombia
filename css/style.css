@@ -3,24 +3,24 @@
   src: url(../fonts/Aller_Lt.ttf);
 }
 
-body{
+body {
   font-family: 'Aller_Lt';
 }
 
-a{
+a {
   transition: 0.5s ease;
   -o-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   transition: 0.5s ease;
   -o-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
 }
 
-.franja{
+.franja {
   color: #FFF;
   background: #3c7fb9;
   letter-spacing: 1px;
@@ -31,29 +31,29 @@ a:hover{
   width: 100%;
 }
 
-.franja .titulo{
+.franja .titulo {
   line-height: 2.7;
 }
 
-.franja nav{
+.franja nav {
   margin-left: 2em;
 }
 
-.franja nav ul{
+.franja nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.franja nav ul li{
+.franja nav ul li {
   float: left;
 }
 
-.franja a{
+.franja a {
   border-radius: 0px;
 }
 
-.franja nav ul li a{
+.franja nav ul li a {
   color: #FFF;
   border-right: solid 1px #2e658e;
   padding: 9px 15px;
@@ -61,11 +61,11 @@ a:hover{
   font-size: 11px;
 }
 
-.franja nav ul li a:hover{
+.franja nav ul li a:hover {
   background: #5199d8;
 }
 
-.franja a.admin{
+.franja a.admin {
   color: #FFF;
   border-right: solid 1px #2e658e;
   border-left: solid 1px #2e658e;
@@ -73,55 +73,55 @@ a:hover{
   background: #2e658e;
 }
 
-.franja a.admin:hover{
+.franja a.admin:hover {
   background: #fff;
   color: #2e658e;
 }
 
-.franja a.admin i{
+.franja a.admin i {
   margin-left: 5px;
 }
 
-.franja nav ul li:first-child a{
+.franja nav ul li:first-child a {
   border-left: solid 1px #2e658e;
 }
 
-header{
+header {
   background: #fff;
   padding: 1em 0em;
   position: absolute;
   left: 0;
   right: 0;
   z-index: 1;
-  box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
   top: 30px;
 }
 
-header.scroll{
+header.scroll {
   top: 0;
   position: fixed;
 }
 
-header .logo{
+header .logo {
   max-width: 180px;
   width: 100%;
 }
 
-header nav{
+header nav {
   float: right;
 }
 
-header nav ul{
+header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-header nav ul li{
+header nav ul li {
   float: left;
 }
 
-header nav ul li a{
+header nav ul li a {
   color: #999999;
   padding: 0em 2em;
   line-height: 3.5;
@@ -129,96 +129,112 @@ header nav ul li a{
   font-size: 16px;
 }
 
-header nav ul li:last-child a{
+header nav ul li:last-child a {
   padding-right: none;
   border-right: none;
 }
 
-header .box-bienvenida{
+header .box-bienvenida {
   text-align: right;
   padding: 0.4em;
   margin-top: 2px;
   color: #999;
 }
 
-header .box-bienvenida p{
+header .box-bienvenida p {
   padding: 0;
   margin: 0;
 }
 
-header .box-bienvenida big{
+header .box-bienvenida big {
   color: #cccccc;
 }
 
-section#inicio{
+section#inicio {
   padding-top: 78px;
 }
 
-section#inicio .banner{
+.proximia .banner {
+  background-position-y: -150px;
+}
+
+.havasmedia .banner {
+  background-position-y: -350px;
+}
+
+.havasww .banner {
+  background-position-y: -350px;
+}
+
+.havasdigital .banner {
+  background-position-y: -350px;
+}
+
+section#inicio .banner {
   height: 380px;
   /*background-image: url(../imagenes/Fondo_Arena1920x1080.jpg);*/
   background-size: cover;
   position: relative;
 }
 
-section#inicio .banner.forward{
+section#inicio .banner.forward {
   background-image: url(../imagenes/Fondo_Forward1920x1080.jpg);
 }
 
-section#inicio .banner.havas-digital{
+section#inicio .banner.havas-digital {
   background-image: url(../imagenes/Fondo_Havas.jpg);
   background-position: 0em -14em;
 }
 
-section#inicio .banner.arena{
+section#inicio .banner.arena {
   background-image: url(../imagenes/Fondo_Arena1920x1080.jpg);
   background-position: 0em -14em;
 }
 
-section#inicio .banner .filtro{
+section#inicio .banner .filtro {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 20%;
   right: 40%;
-  background: rgba(255,255,255,0.85);
+  background: rgba(255, 255, 255, 0.85);
   padding: 5em;
 }
 
-section#inicio .banner .filtro h1{
+section#inicio .banner .filtro h1 {
   color: #3c7fb9;
   font-size: 22px;
 }
 
-section#inicio .banner .filtro p{
+section#inicio .banner .filtro p {
   color: #2d2d2d;
   font-size: 15px;
   margin-bottom: 2em;
 }
 
-section#inicio .banner .filtro a{
+section#inicio .banner .filtro a {
   border: solid 1px #3c7fb9;
   padding: 1em;
   margin-right: 5px;
   display: inline-block;
 }
 
-section#inicio .banner .filtro a:hover{
+section#inicio .banner .filtro a:hover {
   background: #3c7fb9;
   color: #FFF;
 }
 
-section.videos{
+section.videos {
   padding: 6.5em 0em;
 }
 
-section.videos h3{
+section.videos h3 {
   color: #3c7fb9;
   font-size: 22px;
   margin-bottom: 1.5em;
 }
 
-section.videos img{
+section.videos img {
   width: 100%;
   opacity: 0.7;
   transition: 0.5s ease;
@@ -226,46 +242,47 @@ section.videos img{
   -webkit-transition: 0.5s ease;
 }
 
-section.videos img:hover{
+section.videos img:hover {
   opacity: 1;
   transition: 0.5s ease;
   -o-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
 }
 
-section.videos h4{
+section.videos h4 {
   font-size: 22px;
   color: #ababab;
   margin-bottom: 1.5em;
 }
 
-section.descargas{
+section.descargas {
   padding: 6.5em 0em;
   background: #f9f9f9;
 }
 
-section.descargas h3{
+section.descargas h3 {
   color: #3c7fb9;
   font-size: 22px;
   margin-bottom: 1.5em;
 }
 
-section.descargas h3, section.noticias h3{
+section.descargas h3,
+section.noticias h3 {
   color: #3c7fb9;
   font-size: 22px;
   margin-bottom: 1.5em;
 }
 
-section.descargas table.table tr td{
+section.descargas table.table tr td {
   color: #3c7fb9;
   padding: 1em 2em;
 }
 
-section.descargas table.table tr td i{
+section.descargas table.table tr td i {
   margin-right: 5px;
 }
 
-section.descargas table.table tr td a{
+section.descargas table.table tr td a {
   background: #3c7fb9;
   color: #FFF;
   padding: 6px 13px;
@@ -273,80 +290,80 @@ section.descargas table.table tr td a{
   font-size: 13px;
 }
 
-section.descargas table.table tr td a:hover{
+section.descargas table.table tr td a:hover {
   background: #2e658e;
 }
 
-section.descargas table.table tr td a i{
+section.descargas table.table tr td a i {
   margin-right: 0px;
   margin-left: 5px;
 }
 
-section.noticias{
+section.noticias {
   padding: 6.5em 0em;
   background: #f4f4f4;
 }
 
-section.noticias img{
+section.noticias img {
   max-width: 100%;
   width: 100%;
 }
 
-section.noticias .detalle{
+section.noticias .detalle {
   background: #FFF;
   padding: 2em;
 }
 
-section.noticias .detalle h4{
+section.noticias .detalle h4 {
   margin: 0;
   color: #7f7f7f;
   font-size: 22px;
   margin-bottom: 0.5em;
 }
 
-section.noticias .item.dos{
+section.noticias .item.dos {
   position: relative;
   display: inline-block;
   margin-bottom: 30px;
 }
 
-section.noticias .item.dos.fin{
+section.noticias .item.dos.fin {
   margin-bottom: 0px;
 }
 
-section.noticias .item.dos .detalle{
+section.noticias .item.dos .detalle {
   padding: 17px 2em;
 }
 
-section.noticias .item.dos img{
+section.noticias .item.dos img {
   margin-left: 15px;
 }
 
-section.noticias a.mas-noticias{
+section.noticias a.mas-noticias {
   margin-top: 1em;
   font-size: 16px;
   color: #909090;
 }
 
-section.noticias a.mas-noticias:hover{
+section.noticias a.mas-noticias:hover {
   color: #333;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
   .container {
-      width: 1000px;
+    width: 1000px;
   }
 }
 
-#menu-smart{
+#menu-smart {
   display: none;
 }
 
-#ejecuta-menu{
+#ejecuta-menu {
   display: none;
 }
 
-footer{
+footer {
   background: #000;
   color: #FFF;
   padding: 10px 0px;

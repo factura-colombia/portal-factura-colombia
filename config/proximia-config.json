@@ -1,0 +1,8 @@
+{
+    "nombre": "Proximia",
+    "logoUrl": "./imagenes/Logo_Proximia.png",
+    "adminUrl": "https://proximia.innapsis.com.co",
+    "clientesUrl": "https://proximia-clientes.innapsis.com.co",
+    "proveedoresUrl": "https://proximia-proveedores.innapsis.com.co",
+    "backgroundUrl": "../imagenes/Fondo_Proximia1920x1080.png"    
+}

@@ -4,5 +4,5 @@
     "adminUrl": "https://forward.innapsis.com.co",
     "clientesUrl": "https://forward-clientes.innapsis.com.co",
     "proveedoresUrl": "https://forward-proveedores.innapsis.com.co",
-    "backgroundClass": "forward"    
+    "backgroundUrl": "../imagenes/Fondo_Forward1920x1080.jpg"    
 }

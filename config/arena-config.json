@@ -4,5 +4,5 @@
     "adminUrl": "https://arena.innapsis.com.co",
     "clientesUrl": "https://arena-clientes.innapsis.com.co",
     "proveedoresUrl": "https://arena-proveedores.innapsis.com.co",
-    "backgroundClass": "arena"    
+    "backgroundUrl": "../imagenes/Fondo_Arena1920x1080.jpg"    
 }
