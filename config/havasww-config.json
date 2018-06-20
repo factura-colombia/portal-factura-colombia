@@ -1,8 +1,0 @@
-{
-    "nombre": "Havas World Wide",
-    "logoUrl": "./imagenes/Logo_HavasWorldWide280x60.png",
-    "adminUrl": "https://havas.innapsis.com.co",
-    "clientesUrl": "https://havas-clientes.innapsis.com.co",
-    "proveedoresUrl": "https://havas-proveedores.innapsis.com.co",
-    "backgroundUrl": "../imagenes/Fondo_Havas.jpg"     
-}
