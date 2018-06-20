@@ -158,15 +158,7 @@ section#inicio {
   background-position-y: -150px;
 }
 
-.havasmedia .banner {
-  background-position-y: -350px;
-}
-
-.havasww .banner {
-  background-position-y: -350px;
-}
-
-.havasdigital .banner {
+.havasmedia, .havasworldwide, .havasdigital, .banner {
   background-position-y: -350px;
 }
 
