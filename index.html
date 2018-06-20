@@ -58,7 +58,7 @@
               </li>
               <li role="separator" class="divider"></li>
               <li>
-                <a ng-href="{{config.adminUrl}}">admin
+                <a ng-cloak ng-href="{{config.adminUrl}}">admin
                   <i class="fa fa-user fa-lg"></i>
                 </a>
               </li>
@@ -79,7 +79,7 @@
           </nav>
         </div>
         <div class="col-sm-3 hidden-xs">
-          <a ng-href="{{config.adminUrl}}" class="btn btn-sm pull-right admin">Acceso Admin
+          <a ng-cloak ng-href="{{config.adminUrl}}" class="btn btn-sm pull-right admin">Acceso Admin
           </a>
         </div>
       </div>
@@ -89,7 +89,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-xs-8">
-          <img class="logo" ng-src="{{config.logoUrl}}" alt="">
+          <img ng-cloak class="logo" ng-src="{{config.logoUrl}}" alt="">
         </div>
         <div class="col-sm-7 col-xs-4">
           <nav class="hidden-xs">
@@ -111,7 +111,7 @@
         </div>
         <div class="col-sm-2 hidden-xs">
           <div class="pull-right box-bienvenida">
-            <p>{{config.nombre}}</p>
+            <p ng-cloak>{{config.nombre}}</p>
             <big>Bienvenido</big>
           </div>
         </div>
@@ -123,11 +123,11 @@
     <div class="banner">
       <div class="filtro">
         <h1>Portal Factura Electrónica
-          <br>{{config.nombre}}</h1>
+          <br ng-cloak>{{config.nombre}}</h1>
         <p>Bienvenido a nuestro Portal de Factura Electrónica. Por favor ingrese al portal de Clientes o Proveedores haciendo click en el botón respectivo.</p>
-        <a ng-href="{{config.clientesUrl}}">Portal Clientes</a>
+        <a ng-cloak ng-href="{{config.clientesUrl}}">Portal Clientes</a>
         <br class="visible-xs">
-        <a ng-href="{{config.proveedoresUrl}}">Portal Proveedores</a>
+        <a ng-cloak ng-href="{{config.proveedoresUrl}}">Portal Proveedores</a>
       </div>
     </div>
   </section>
