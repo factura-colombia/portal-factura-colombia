@@ -111,7 +111,7 @@
         </div>
         <div class="col-sm-2 hidden-xs">
           <div class="pull-right box-bienvenida">
-            <p ng-cloak>{{config.nombre}}</p>
+            <p ng-cloak ng-bind="config.nombre"></p>
             <big>Bienvenido</big>
           </div>
         </div>
@@ -123,8 +123,10 @@
     <div class="banner">
       <div class="filtro">
         <h1>Portal Factura Electrónica
-          <br ng-cloak>{{config.nombre}}</h1>
-        <p>Bienvenido a nuestro Portal de Factura Electrónica. Por favor ingrese al portal de Clientes o Proveedores haciendo click en el botón respectivo.</p>
+          <br ng-cloak ng-bind="config.nombre">
+        </h1>
+        <p>Bienvenido a nuestro Portal de Factura Electrónica. Por favor ingrese al portal de Clientes o Proveedores haciendo
+          click en el botón respectivo.</p>
         <a ng-cloak ng-href="{{config.clientesUrl}}">Portal Clientes</a>
         <br class="visible-xs">
         <a ng-cloak ng-href="{{config.proveedoresUrl}}">Portal Proveedores</a>
