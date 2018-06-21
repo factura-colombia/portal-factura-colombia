@@ -1,8 +1,8 @@
 {
     "nombre": "Havas Digital",
     "logoUrl": "./imagenes/Logo_HavasDigital.png",
-    "adminUrl": "https://havasdigital.innapsis.com.co",
-    "clientesUrl": "https://havasdigital-clientes.innapsis.com.co",
-    "proveedoresUrl": "https://havasdigital-proveedores.innapsis.com.co",
+    "adminUrl": "https://havasdigital-admin.facturacolombia.co",
+    "clientesUrl": "https://havasdigital-clientes.facturacolombia.co",
+    "proveedoresUrl": "https://havasdigital-clientes.facturacolombia.co",
     "backgroundUrl": "../imagenes/Fondo_Havas.jpg"    
 }
