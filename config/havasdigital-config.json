@@ -3,6 +3,6 @@
     "logoUrl": "./imagenes/Logo_HavasDigital.png",
     "adminUrl": "https://havasdigital-admin.facturacolombia.co",
     "clientesUrl": "https://havasdigital-clientes.facturacolombia.co?ctype=1",
-    "proveedoresUrl": "https://havasdigital-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://havasdigital-clientes.facturacolombia.co?ctype=2",
     "backgroundUrl": "../imagenes/Fondo_Havas.jpg"    
 }
