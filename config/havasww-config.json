@@ -1,0 +1,8 @@
+{
+    "nombre": "Havas World Wide",
+    "logoUrl": "./imagenes/Logo_HavasWorldWide280x60.png",
+    "adminUrl": "https://havasww-admin.facturacolombia.co",
+    "clientesUrl": "https://havasww-clientes.facturacolombia.co",
+    "proveedoresUrl": "https://havasww-clientes.facturacolombia.co",
+    "backgroundUrl": "../imagenes/Fondo_Havas.jpg"     
+}
