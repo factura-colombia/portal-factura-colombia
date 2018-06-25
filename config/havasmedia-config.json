@@ -2,7 +2,7 @@
     "nombre": "Havas Media",
     "logoUrl": "./imagenes/Logo_HavasMedia280x60.png",
     "adminUrl": "https://havasmedia-admin.facturacolombia.co",
-    "clientesUrl": "https://havasmedia-clientes.facturacolombia.co",
-    "proveedoresUrl": "https://havasmedia-clientes.facturacolombia.co",
+    "clientesUrl": "https://havasmedia-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://havasmedia-clientes.facturacolombia.co?ctype=2",
     "backgroundUrl": "../imagenes/Fondo_Havas.jpg"    
 }

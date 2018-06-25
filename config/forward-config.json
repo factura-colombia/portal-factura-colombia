@@ -2,7 +2,7 @@
     "nombre": "Forward",
     "logoUrl": "./imagenes/Logo_Forward.png",
     "adminUrl": "https://forward-admin.facturacolombia.co",
-    "clientesUrl": "https://forward-clientes.facturacolombia.co",
-    "proveedoresUrl": "https://forward-clientes.facturacolombia.co",
+    "clientesUrl": "https://forward-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://forward-clientes.facturacolombia.co?ctype=2",
     "backgroundUrl": "../imagenes/Fondo_Forward1920x1080.jpg"    
 }

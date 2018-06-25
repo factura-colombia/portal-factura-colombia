@@ -2,7 +2,7 @@
     "nombre": "Havas Digital",
     "logoUrl": "./imagenes/Logo_HavasDigital.png",
     "adminUrl": "https://havasdigital-admin.facturacolombia.co",
-    "clientesUrl": "https://havasdigital-clientes.facturacolombia.co",
-    "proveedoresUrl": "https://havasdigital-clientes.facturacolombia.co",
+    "clientesUrl": "https://havasdigital-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://havasdigital-clientes.facturacolombia.co?ctype=1",
     "backgroundUrl": "../imagenes/Fondo_Havas.jpg"    
 }
