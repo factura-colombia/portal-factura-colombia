@@ -1,0 +1,14 @@
+{
+  "name": "factura-colombia",
+  "version": "1.0.0",
+  "description": "factura-colombia project.",
+  "scripts": {
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

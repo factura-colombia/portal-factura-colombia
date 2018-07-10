@@ -1,0 +1,8 @@
+{
+    "nombre": "Confa",
+    "logoUrl": "./imagenes/Logo_confa.png",
+    "adminUrl": "https://confa-admin.facturacolombia.co",
+    "clientesUrl": "https://confa-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://confa-clientes.facturacolombia.co?ctype=2",
+    "backgroundUrl": "../imagenes/Fondo_confa.jpg"    
+}
