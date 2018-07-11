@@ -1,0 +1,8 @@
+{
+    "nombre": "Confa",
+    "logoUrl": "./imagenes/Logo_melexa.png",
+    "adminUrl": "https://melexa-admin.facturacolombia.co",
+    "clientesUrl": "https://melexa-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://melexa-clientes.facturacolombia.co?ctype=2",
+    "backgroundUrl": "../imagenes/Fondo_melexa.jpg"    
+}
