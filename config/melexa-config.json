@@ -4,5 +4,6 @@
     "adminUrl": "https://melexa-admin.facturacolombia.co",
     "clientesUrl": "https://melexa-clientes.facturacolombia.co?ctype=1",
     "proveedoresUrl": "https://melexa-clientes.facturacolombia.co?ctype=2",
-    "backgroundUrl": "../imagenes/Fondo_melexa.jpg"    
+    "backgroundUrl": "../imagenes/Fondo_melexa.jpg",
+    "video1": "http://melexa.com/wp-content/uploads/2018/05/FACTURA_ELECTRONICA_INT.mp4"
 }
