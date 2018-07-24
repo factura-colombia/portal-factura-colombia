@@ -1,0 +1,8 @@
+{
+    "nombre": "EY SAS",
+    "logoUrl": "./imagenes/Logo_EY.png",
+    "adminUrl": "https://ey-admin.facturacolombia.co",
+    "clientesUrl": "https://ey-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://ey-clientes.facturacolombia.co?ctype=2",
+    "backgroundUrl": "../imagenes/Fondo_EY1920x1080.jpg"    
+}

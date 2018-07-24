@@ -1,0 +1,8 @@
+{
+    "nombre": "EY Audit",
+    "logoUrl": "./imagenes/Logo_EY.png",
+    "adminUrl": "https://eyaudit-admin.facturacolombia.co",
+    "clientesUrl": "https://eyaudit-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://eyaudit-clientes.facturacolombia.co?ctype=2",
+    "backgroundUrl": "../imagenes/Fondo_EYAudit1920x1080.jpg"    
+}
