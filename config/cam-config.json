@@ -1,0 +1,8 @@
+{
+    "nombre": "CAM",
+    "logoUrl": "./imagenes/Logo_Cam.png",
+    "adminUrl": "https://cam-admin.facturacolombia.co",
+    "clientesUrl": "https://cam-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://cam-clientes.facturacolombia.co?ctype=2",
+    "backgroundUrl": "../imagenes/Fondo_Cam1920x1080.jpg"    
+}

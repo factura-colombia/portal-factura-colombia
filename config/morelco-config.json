@@ -1,0 +1,8 @@
+{
+    "nombre": "Morelco",
+    "logoUrl": "./imagenes/Logo_Morelco.png",
+    "adminUrl": "https://morelco-admin.facturacolombia.co",
+    "clientesUrl": "https://morelco-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://morelco-clientes.facturacolombia.co?ctype=2",
+    "backgroundUrl": "../imagenes/Fondo_Morelco1920x1080.jpg"    
+}
