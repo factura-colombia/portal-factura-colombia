@@ -1,0 +1,8 @@
+{
+    "nombre": "Compumax",
+    "logoUrl": "./imagenes/Logo_Compumax.png",
+    "adminUrl": "https://compumax-admin.facturacolombia.co",
+    "clientesUrl": "https://compumax-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://compumax-clientes.facturacolombia.co?ctype=2",
+    "backgroundUrl": "../imagenes/Fondo_Compumax1920x1080.jpg"    
+}
