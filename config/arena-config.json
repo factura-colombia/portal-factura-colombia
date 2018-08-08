@@ -4,5 +4,7 @@
     "adminUrl": "https://arena-admin.facturacolombia.co",
     "clientesUrl": "https://arena-clientes.facturacolombia.co?ctype=1",
     "proveedoresUrl": "https://arena-clientes.facturacolombia.co?ctype=2",
-    "backgroundUrl": "../imagenes/Fondo_Arena1920x1080.jpg"    
+    "backgroundUrl": "../imagenes/Fondo_Arena1920x1080.jpg", 
+    "correoSoporte":"soporte.havas@facturacolombia.co",
+    "correoNegocio":"facturacion.hmg@havasmg.com"
 }
