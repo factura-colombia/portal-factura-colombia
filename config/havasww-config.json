@@ -4,5 +4,7 @@
     "adminUrl": "https://havasworldwide-admin.facturacolombia.co",
     "clientesUrl": "https://havasworldwide-clientes.facturacolombia.co?ctype=1",
     "proveedoresUrl": "https://havasworldwide-clientes.facturacolombia.co?ctype=2",
-    "backgroundUrl": "../imagenes/Fondo_Havas.jpg"     
+    "backgroundUrl": "../imagenes/Fondo_Havas.jpg",
+    "correoSoporte":"soporte.havas@facturacolombia.co",
+    "correoNegocio":"facturacion.hmg@havasmg.com"
 }
