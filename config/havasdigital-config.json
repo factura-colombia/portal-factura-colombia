@@ -1,9 +1,9 @@
 {
     "nombre": "Havas Digital",
     "logoUrl": "./imagenes/Logo_HavasDigital.png",
-    "adminUrl": "https://havasdigital-admin.facturacolombia.co",
-    "clientesUrl": "https://havasdigital-clientes.facturacolombia.co?ctype=1",
-    "proveedoresUrl": "https://havasdigital-clientes.facturacolombia.co?ctype=2",
+    "adminUrl": "https://hd-admin.facturacolombia.co",
+    "clientesUrl": "https://hd-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://hd-clientes.facturacolombia.co?ctype=2",
     "backgroundUrl": "../imagenes/Fondo_Havas.jpg",
     "correoSoporte":"soporte.havas@facturacolombia.co",
     "correoNegocio":"facturacion.hmg@havasmg.com"

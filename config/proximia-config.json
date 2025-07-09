@@ -1,9 +1,9 @@
 {
     "nombre": "Proximia",
     "logoUrl": "./imagenes/Logo_Proximia.png",
-    "adminUrl": "https://proximia-admin.facturacolombia.co",
-    "clientesUrl": "https://proximia-clientes.facturacolombia.co?ctype=1",
-    "proveedoresUrl": "https://proximia-clientes.facturacolombia.co?ctype=2",
+    "adminUrl": "https://pr-admin.facturacolombia.co",
+    "clientesUrl": "https://pr-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://pr-clientes.facturacolombia.co?ctype=2",
     "backgroundUrl": "../imagenes/Fondo_Proximia1920x1080.png",
     "correoSoporte":"soporte.havas@facturacolombia.co",
     "correoNegocio":"facturacion.hmg@havasmg.com"

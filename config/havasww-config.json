@@ -1,9 +1,9 @@
 {
     "nombre": "Havas World Wide",
     "logoUrl": "./imagenes/Logo_HavasWorldWide280x60.png",
-    "adminUrl": "https://havasworldwide-admin.facturacolombia.co",
-    "clientesUrl": "https://havasworldwide-clientes.facturacolombia.co?ctype=1",
-    "proveedoresUrl": "https://havasworldwide-clientes.facturacolombia.co?ctype=2",
+    "adminUrl": "https://hw-admin.facturacolombia.co",
+    "clientesUrl": "https://hw-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://hw-clientes.facturacolombia.co?ctype=2",
     "backgroundUrl": "../imagenes/Fondo_Havas.jpg",
     "correoSoporte":"soporte.havas@facturacolombia.co",
     "correoNegocio":"facturacion.hmg@havasmg.com"

@@ -1,9 +1,9 @@
 {
   "nombre": "havasplus",
   "logoUrl": "./imagenes/Logo_havasplus.png",
-  "adminUrl": "https://havasplus-admin.facturacolombia.co",
-  "clientesUrl": "https://havasplus-clientes.facturacolombia.co?ctype=1",
-  "proveedoresUrl": "https://havasplus-clientes.facturacolombia.co?ctype=2",
+  "adminUrl": "https://hu-admin.facturacolombia.co",
+  "clientesUrl": "https://hu-clientes.facturacolombia.co?ctype=1",
+  "proveedoresUrl": "https://hu-clientes.facturacolombia.co?ctype=2",
   "backgroundUrl": "../imagenes/Fondo_havasplus1920x1080.jpg",
   "correoSoporte": "soporte.havasplus@facturacolombia.co",
   "correoNegocio": "facturacion.hm@havasplus.com"

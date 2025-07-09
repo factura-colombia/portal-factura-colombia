@@ -1,9 +1,9 @@
 {
     "nombre": "Arena",
     "logoUrl": "./imagenes/Logo_arena280x60.png",
-    "adminUrl": "https://arena-admin.facturacolombia.co",
-    "clientesUrl": "https://arena-clientes.facturacolombia.co?ctype=1",
-    "proveedoresUrl": "https://arena-clientes.facturacolombia.co?ctype=2",
+    "adminUrl": "https://ar-admin.facturacolombia.co",
+    "clientesUrl": "https://ar-clientes.facturacolombia.co?ctype=1",
+    "proveedoresUrl": "https://ar-clientes.facturacolombia.co?ctype=2",
     "backgroundUrl": "../imagenes/Fondo_Arena1920x1080.jpg", 
     "correoSoporte":"soporte.havas@facturacolombia.co",
     "correoNegocio":"facturacion.hmg@havasmg.com"
